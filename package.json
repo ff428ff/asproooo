@@ -1,0 +1,19 @@
+{
+  "name": "mta-money-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to manage MTA:SA server player money",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.1"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.1",
+    "nodemon": "^3.0.1"
+  }
+}
